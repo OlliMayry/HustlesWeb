@@ -1,0 +1,115 @@
+#login{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+#register{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+#user-info{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+   #selling-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  } 
+  
+   label {
+    font-weight: bold;
+    margin-top: 10px;
+  } 
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #631aec;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #631aec;
+  }
+  h1{
+    text-align: center;
+    margin: 10px;
+  }
+  .navbar-brand img {
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  #comment-list{
+    border-radius: 1em;
+    margin-top: 20px;
+  }
+
+  body {
+ /*    background-image: url('bckrd.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     color: white; 
+    background-color: black; */
+  }
+  #upp{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #update-btn{
+    margin: 20px;
+  }
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cookie-banner a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .cookie-banner button {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .currency {
+    font-size: 18px;
+    color: #666;
+    margin-left: 5px;
+  }
